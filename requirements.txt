@@ -16,3 +16,4 @@ langchain-openai==1.7.3
 langchain-tavily==0.2.18
 python-dotenv==1.2.4
 requests==2.34.2
+streamlit
