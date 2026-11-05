@@ -16,6 +16,7 @@ from https://app.tavily.com/home  get tavily key and pasted in .env as TAVILY_AP
 Note module names are case sensitive and the version dependents
 
 jupyter:kernal restart need to be done to remove recurring error message
+Developer: Reload window      -- to reload whole vscode
 
 pip install -U langchain-core langchain-classic langgraph  is done to use langchain-classic. New version is not compatible with the functions from the example
 
@@ -38,6 +39,19 @@ For the tutorial sake installed old versions of langchain classic. see requireme
 
  using google model. get api keys from https://aistudio.google.com/api-keys
  pip install langchain-google-genai
+
+ pip install streamlit
+
+ using claude convert the .py file to streamlit ui files.
+
+ To check are we in our venv
+ python -c "import sys; print(sys.executable)"
+python -m pip list 
+
+streamlit un weatheragent_ui.py --server.port $PORT --server.address 0.0.0.0  
+Note render.com uses linux. so case sensitive note it is $PORT
+
+
 
 
 
