@@ -1,0 +1,6 @@
+# Tested together on Python 3.11 (LangChain 1.x API: create_agent, no AgentExecutor)
+langchain==1.4.8
+langchain-google-genai==4.4.2
+langchain-tavily==0.2.18
+python-dotenv==1.2.4
+requests==2.34.2
