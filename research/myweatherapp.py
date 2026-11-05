@@ -16,7 +16,7 @@ from langchain_classic import hub
 from langchain_classic.agents import create_react_agent,AgentExecutor
 
 
-# %%
+
 os.environ["SSL_CERT_FILE"] = certifi.where()   # ON WINDOWS FOR PATH RELATED ISSUES. IT IS OPTIONAL
 
 load_dotenv()
